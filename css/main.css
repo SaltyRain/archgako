@@ -1,0 +1,64 @@
+
+#menu li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li:last-child {
+  margin-right: 30px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	/*background-color: red;*/
+	padding: 8px 16px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	font-family: 'Cormorant-Light', serif;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	position:fixed;
+	display: flex;
+	justify-content: flex-end;
+	top: ;
+	left: 0;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+/* My css
+ * --------------------------------------- */
+
+
+
+
+
+
+
+
+
