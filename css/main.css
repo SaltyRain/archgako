@@ -13,19 +13,19 @@
   margin-right: 30px;
 }
 #menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
+	background: rgba(0,0,0, 0.6);
 	color: #fff;
 }
 #menu li a{
 	text-decoration:none;
 	color: #000;
 }
-#menu li.active a:hover{
-	color: #000;
+#menu li a:hover{
+	color: #fff;
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+	background: rgba(0,0,0, 0.3);
+
 }
 #menu li a,
 #menu li.active a{

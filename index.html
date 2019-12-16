@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ru">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -51,11 +51,11 @@
 			    				
 			    <section class="section about" id="section1">
 
-			    	<div class="wrapper">
+			    	<div class="container">
 
 			    		<div class="row">
 			    			<div class="col">
-			    				<h2 class="section-heading">О нас</h2>
+			    				<h2 class="section-heading about__heading">О нас</h2>
 			    				<p class="about__text">
 			    					Мы основатели студии <span class="bold uppercase">ARCHGAKO</span>, с <span class="bold">2017</span> года наша студия создает интерьерные и архитектурные проекты. <br> Для каждого проекта мы придумываем свою философию вместе с заказчиком - это позволяет нам создавать неповторимые проекты, которые наполнены особой атмосферой и создают для вас комфортную среду.
 			    				</p>
@@ -77,13 +77,13 @@
 			    		<!-- /.row -->
 
 			    	</div>
-			    	<!-- .wrapper -->
+			    	<!-- .container -->
 			    </section>
 			    <!-- .section -->
 
 			    <section class="section" id="section2">
 
-			        <div class="wrapper">
+			        <div class="container">
 			        	
 			        	<div class="news">
 			        		<div class="row">
@@ -155,7 +155,7 @@
 						</div>
 						<!-- /.news -->
 			        </div>
-			        <!-- /.wrapper -->
+			        <!-- /.container -->
 			
 			    </section>
 			    <!-- .section -->
@@ -163,53 +163,57 @@
 			    <section class="section" id="section3">
 					<h2 class=" section-heading hidden">Контакты</h2>
 
-					<div class="wrapper">
-						<div class="row">
-							<div class="col">
+					<div class="container">
 
-								<div class="map-block">
-									<div class="map-block__image">
-										<img src="img/index/moscowMap.jpg" alt="Карта Москвы | Moscow map">
+						<div class="maps">
+							<div class="row">
+								<div class="col">
+							
+									<div class="map-block">
+										<div class="map-block__image">
+											<img src="img/index/moscowMap.jpg" alt="Карта Москвы | Moscow map">
+										</div>
+										<!-- /.map-block__image -->
+							
+										<span class="uppercase">Москва</span>
 									</div>
-									<!-- /.map-block__image -->
-
-									<span class="uppercase">Москва</span>
+									<!-- /.map-block -->
+							
 								</div>
-								<!-- /.map-block -->
-
-							</div>
-							<!-- /.col -->
-						
-							<div class="col">
-
-								<div class="map-block">
-									<div class="map-block__image">
-										<img src="img/index/saintpMap.jpg" alt="Карта Санкт-Петербурга| Saint-Petersburg map">
+								<!-- /.col -->
+							
+								<div class="col">
+							
+									<div class="map-block">
+										<div class="map-block__image">
+											<img src="img/index/saintpMap.jpg" alt="Карта Санкт-Петербурга| Saint-Petersburg map">
+										</div>
+										<!-- /.map-block__image -->
+							
+										<span class="uppercase">Санкт-Петербург</span>
 									</div>
-									<!-- /.map-block__image -->
-
-									<span class="uppercase">Санкт-Петербург</span>
+									<!-- /.map-block -->
+							
 								</div>
-								<!-- /.map-block -->
-
-							</div>
-							<!-- /.col -->
-						
-							<div class="col">
-
-								<div class="map-block">
-									<div class="map-block__image">
-										<img src="img/index/milanMap.jpg" alt="Карта Милана | Milan map">
+								<!-- /.col -->
+							
+								<div class="col">
+							
+									<div class="map-block">
+										<div class="map-block__image">
+											<img src="img/index/milanMap.jpg" alt="Карта Милана | Milan map">
+										</div>
+										<!-- /.map-block__image -->
+										<span class="uppercase">Милан</span>
 									</div>
-									<!-- /.map-block__image -->
-									<span class="uppercase">Милан</span>
+									<!-- /.map-block -->
+							
 								</div>
-								<!-- /.map-block -->
-
+								<!-- /.col -->
 							</div>
-							<!-- /.col -->
+							<!-- /.row -->
 						</div>
-						<!-- /.row -->
+						<!-- /.maps -->
 
 					    <footer class="footer-container">
 					    	<span class="uppercase">Контакты</span>
@@ -223,14 +227,11 @@
 					    	</div>
 
 					    </footer>
+					    <!-- /.footer-container -->
 					</div>
-					<!-- /.wrapper -->
+					<!-- /.container -->
 				</section>
 				<!-- .section -->
-
-
-			
-
 			
 			</div>
 			<!-- /#fullpage -->
@@ -239,8 +240,8 @@
 	</div>
 	<!-- /.container-fluid -->
 
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="js/fullpage.js"></script>
-	<script type="text/javascript" src="examples.js"></script>
 	<script type="text/javascript">
 	    var myFullpage = new fullpage('#fullpage', {
 	        // sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
